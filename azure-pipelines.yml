@@ -7,6 +7,6 @@ trigger:
 - master
 
 pool:
-  name: 'ubuntu-latest'
+  name: 'linux agent pool'
 steps:
 - bash: echo "Hello world"
